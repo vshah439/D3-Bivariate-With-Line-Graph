@@ -1,0 +1,57 @@
+.axis {
+	font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.y path{
+	display: none;
+}
+
+.tick line {
+	opacity: 0.2;
+}
+
+.dot {
+	fill: steelblue;
+	stroke: steelblue;
+	stroke-width: 2.5px;
+}
+
+.area {
+	fill: steelblue;
+	opacity: 0.3;
+}
+
+.tooltip {
+	position: absolute;
+	display: none;
+	width: auto;
+	height: auto;
+	background: none repeat scroll 0 0 #f2f2f2;
+	border: 0 none;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: -3px 3px 15px #888888;
+	color: black;
+	font: 12px sans-serif;
+	padding: 5px;
+	text-align: left;
+}
+
+.tooltip-title {
+	font: 18px sans-serif;
+	text-align: center;
+	width: 100%;
+	border-bottom: 0.1rem solid gray;
+	margin-bottom: 1.5px;
+}
+
+.tooltip-count {
+	font: 14px sans-serif;
+	display: inline;
+	padding-top: 0.5rem
+}
